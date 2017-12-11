@@ -1,9 +1,23 @@
 {
   "name": "@planningcenter/elements",
   "version": "0.0.0",
-  "description": "8-point elements",
+  "description": "8-point elements for planning center apps",
   "main": "index.js",
   "author": "Michael Chan",
+  "contributors": [
+    {
+      "name": "Michael Chan"
+    },
+    {
+      "name": "Allie Rice"
+    },
+    {
+      "name": "Dustin Secrest"
+    },
+    {
+      "name": "Jonathan Suh"
+    }
+  ],
   "private": false,
   "scripts": {
     "start": "python -m SimpleHTTPServer 3000"
