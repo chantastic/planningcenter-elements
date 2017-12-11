@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- environment -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="./env.css">
+
+  <!-- package -->
+  <link rel="stylesheet" href="./src/action.css">
+  <link rel="stylesheet" href="./src/checkbox-input.css">
+  <link rel="stylesheet" href="./src/checkbox-label.css">
+  <link rel="stylesheet" href="./src/text-input.css">
+  <link rel="stylesheet" href="./src/radio-label.css">
+  <link rel="stylesheet" href="./src/radio-input.css">
+  <link rel="stylesheet" href="./src/select.css">
+  <link rel="stylesheet" href="./src/form-element.css">
+
+  <title>Elements</title>
+</head>
+
+<body>
+  <div>
+    <h2>Elements</h2>
+
+    <input type="text" class="text-input form-element" placeholder="Input..." />
+
+    <select class="select form-element" placeholder="Input...">
+      <option>one</option>
+      <option>two</option>
+    </select>
+
+    <button type="button" class="action form-element">
+      Button
+    </button>
+
+    <input type="checkbox" class="checkbox-input" name="myCheckbox" id="myCheckbox1" />
+    <label class="checkbox-label" for="myCheckbox1">My Checkbox #1</label>
+
+    <input type="radio" class="radio-input" name="myRadio" id="myRadio1" />
+    <label class="radio-label" for="myRadio1">My Radio #1</label>
+  </div>
+
+  <div>
+    <h2>Scale</h2>
+
+    <h4>Input</h4>
+    <input type="text" class="text-input form-element form-element--2u" placeholder="2u" />
+    <input type="text" class="text-input form-element form-element--3u" placeholder="3u" />
+    <input type="text" class="text-input form-element form-element--4u" placeholder="4u" />
+    <input type="text" class="text-input form-element form-element--5u" placeholder="5u" />
+    <input type="text" class="text-input form-element form-element--6u" placeholder="6u" />
+
+    <h4>Select</h4>
+    <select class="select form-element form-element--2u">
+      <option>2u</option>
+    </select>
+    <select class="select form-element form-element--3u">
+      <option>3u</option>
+    </select>
+    <select class="select form-element form-element--4u">
+      <option>4u</option>
+    </select>
+    <select class="select form-element form-element--5u">
+      <option>5u</option>
+    </select>
+    <select class="select form-element form-element--6u">
+      <option>6u</option>
+    </select>
+
+    <h4>Button</h4>
+    <button type="button" class="action form-element form-element--2u">Button 2u</button>
+    <button type="button" class="action form-element form-element--3u">Button 3u</button>
+    <button type="button" class="action form-element form-element--4u">Button 4u</button>
+    <button type="button" class="action form-element form-element--5u">Button 5u</button>
+    <button type="button" class="action form-element form-element--6u">Button 6u</button>
+  </div>
+</body>
+
+</html>

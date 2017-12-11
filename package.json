@@ -1,0 +1,11 @@
+{
+  "name": "@planningcenter/elements",
+  "version": "0.0.0",
+  "description": "8-point elements",
+  "main": "index.js",
+  "author": "Michael Chan",
+  "private": false,
+  "scripts": {
+    "start": "python -m SimpleHTTPServer 3000"
+  }
+}
