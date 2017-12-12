@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- environment -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="../env.css">
+  <link rel="stylesheet" href="./examples.css">
+
+  <!-- minions utility classes -->
+  <link rel="stylesheet" href="https://unpkg.com/8-point@1.1.0/8-point.css">
+  <link rel="stylesheet" href="https://unpkg.com/minions.css@0.3.1/packages/width/width.css">
+
+  <!-- package -->
+  <link rel="stylesheet" href="../src/action.css">
+  <link rel="stylesheet" href="../src/checkbox-input.css">
+  <link rel="stylesheet" href="../src/checkbox-label.css">
+  <link rel="stylesheet" href="../src/text-input.css">
+  <link rel="stylesheet" href="../src/radio-label.css">
+  <link rel="stylesheet" href="../src/radio-input.css">
+  <link rel="stylesheet" href="../src/select.css">
+  <link rel="stylesheet" href="../src/form-element.css">
+
+  <title>Elements</title>
+</head>
+
+<body class="layout-examples">
+  <article id="check-ins-2-2" class="example-box check-ins-example-box p-2" style="max-width: 480px">
+    <h3>EVENT SETTINGS</h3>
+    <div class="p-4 pt-2" style="background-color: white; border: 1px solid #f2f0f3">
+      <h4>Frequency</h4>
+      <select class="select form-element w-100%">
+        <option>None</option>
+      </select>
+      <p>
+        Setting your event to
+        <strong>None</strong> will provide a "Start a New Session" button for you to manually presso. This will not automatically
+        carry over your times.
+      </p>
+
+      <hr class="my-3" />
+
+      <h4>Planning Center Services Integration:</h4>
+      <select class="select form-element w-100%">
+        <option>Enabled</option>
+      </select>
+      <p>If a person is checked in to a time that matches their assignment time in Planning Center Services, they will automatically
+        be marked as a volunteer and show in Services.</p>
+      <p>For more information, check out our
+        <a href="#">Services Integration</a> articel.</p>
+
+      <hr class="my-3" />
+
+      <button class="action check-ins-themed-action form-element w-100%">Add past sessions</button>
+    </div>
+  </article>
+</body>
+
+</html>
