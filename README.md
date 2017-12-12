@@ -34,5 +34,5 @@ Home of [@planningcenter/elements](https://github.com/planningcenter/elements).
 * `2u`, `16px/10px`
 * `3u`, `24px/12px`
 * `4u`, `32px/14px`
-* `5u`, `40px/16px`
-* `6u`, `48px/18px`
+* `5u`, `40px/18px`
+* `6u`, `48px/20px`
