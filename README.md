@@ -10,6 +10,7 @@ Home of [@planningcenter/elements](https://github.com/planningcenter/elements).
 `env.css` provides some environment expections:
 * `14px` base font-size
 * `border-box` all-the-things
+* `Lato` font-family with `400` and `700` variants
 
 ## Minutes
 
