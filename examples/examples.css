@@ -1,0 +1,19 @@
+.layout-examples {
+}
+
+.example-box {
+  border: 1px solid #aaa;
+}
+
+.check-ins-example-box {
+  background-color: #fafafa;
+  color: #464646;
+}
+
+.check-ins-example-box hr {
+  border: .5px solid #f2f0f3;
+}
+
+.check-ins-example-box p {
+  line-height: 1.4em;
+}
