@@ -1,4 +1,4 @@
-select[class*="form-element"] {
+.select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
