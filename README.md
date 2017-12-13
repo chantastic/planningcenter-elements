@@ -14,6 +14,34 @@ Home of [@planningcenter/elements](https://github.com/planningcenter/elements).
 
 ## Minutes
 
+### 12/13
+#### `height` again
+Despite it feeling **terrible** to **everyone**, we revisited Dustin's `height`-technique.
+It has the best cross-browser support.
+
+Shims for each element type **are required**—a concession we are open to only because the other methods failed.
+
+```css
+.blocks-2 { ... }
+input[type="text"].blocks-2 { ... }
+select.blocks-2 { ... }
+button.blocks-2 { ... }
+```
+
+#### `blocks`?
+With the height-approach, `blocks` matches my mental model of a small library that forces hight on single-line items.
+It's a namespace up-for-grabs.
+
+### 12/12
+#### Oops!
+* The `line-height` approach doesn't work with FF and IE11
+  * IE11 just shits the bed
+  * FF doesn't allow you to style `selects` with `line-height`, even with `-moz-appearance: none`
+* Bootstrap `.form-control`
+  * Doesn't support nesting
+  * Line-height issues with `Lato`
+  * Didn't work well with the added `button` expectation
+
 ### 12/11
 #### Approach
 * `line-height` all the elements

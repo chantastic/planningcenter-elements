@@ -1,0 +1,29 @@
+.blocks-notice {
+  text-align: center;
+}
+
+.blocks-notice.blocks-2 {
+  height: 16px;
+  line-height: calc(16px - 2px);
+  font-size: 10px;
+}
+.blocks-notice.blocks-3 {
+  height: 24px;
+  line-height: calc(24px - 2px);
+  font-size: 12px;
+}
+.blocks-notice.blocks-4 {
+  height: 32px;
+  line-height: calc(32px - 2px);
+  font-size: 14px;
+}
+.blocks-notice.blocks-5 {
+  height: 40px;
+  line-height: calc(40px - 2px);
+  font-size: 16px;
+}
+.blocks-notice.blocks-6 {
+  height: 48px;
+  line-height: calc(48px - 2px);
+  font-size: 20px;
+}

@@ -8,89 +8,138 @@
 
   <!-- environment -->
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+  <link href="https://unpkg.com/normalize.css@7.0.0/normalize.css" rel="stylesheet">
   <link rel="stylesheet" href="./env.css">
 
   <!-- package -->
-  <link rel="stylesheet" href="./src/form-element.css">
-  <link rel="stylesheet" href="./src/action.css">
-  <link rel="stylesheet" href="./src/checkbox-input.css">
-  <link rel="stylesheet" href="./src/checkbox-label.css">
-  <link rel="stylesheet" href="./src/text-input.css">
-  <link rel="stylesheet" href="./src/radio-label.css">
-  <link rel="stylesheet" href="./src/radio-input.css">
-  <link rel="stylesheet" href="./src/select.css">
+  <link rel="stylesheet" href="./src/blocks.css">
+  <link rel="stylesheet" href="./src/blocks-action.css">
+  <link rel="stylesheet" href="./src/blocks-box.css">
+  <link rel="stylesheet" href="./src/blocks-notice.css">
+  <link rel="stylesheet" href="./src/blocks-select.css">
+  <link rel="stylesheet" href="./src/blocks-text-input.css">
 
-  <title>Elements</title>
+  <title>Blocks</title>
 </head>
 
-<body>
-  <div>
-    <h2>Elements</h2>
+<body style="margin: 2rem">
+  <h2>
+    <code>blocks-text-input</code>
+  </h2>
 
-    <input type="text" class="text-input form-element" placeholder="Input..." />
+  <input type="text" class="blocks-text-input blocks-2" placeholder="blocks-2" />
+  <input type="text" class="blocks-text-input blocks-3" placeholder="blocks-3" />
+  <input type="text" class="blocks-text-input blocks-4" placeholder="blocks-4" />
+  <input type="text" class="blocks-text-input blocks-5" placeholder="blocks-5" />
+  <input type="text" class="blocks-text-input blocks-6" placeholder="blocks-6" />
 
-    <select class="select form-element" placeholder="Input...">
-      <option>one</option>
-      <option>two</option>
-    </select>
+  <h2>
+    <code>blocks-action</code>
+  </h2>
 
-    <button type="button" class="action form-element">
-      Button
-    </button>
+  <button type="button" class="blocks-action blocks-2">blocks-2</button>
+  <button type="button" class="blocks-action blocks-3">blocks-3</button>
+  <button type="button" class="blocks-action blocks-4">blocks-4</button>
+  <button type="button" class="blocks-action blocks-5">blocks-5</button>
+  <button type="button" class="blocks-action blocks-6">blocks-6</button>
 
-    <input type="checkbox" class="checkbox-input" name="myCheckbox" id="myCheckbox1" />
-    <label class="checkbox-label" for="myCheckbox1">My Checkbox #1</label>
 
-    <input type="radio" class="radio-input" name="myRadio" id="myRadio1" />
-    <label class="radio-label" for="myRadio1">My Radio #1</label>
+  <h2>
+    <code>blocks-select</code>
+  </h2>
+
+  <select class="blocks-select blocks-2">
+    <option>blocks-2</option>
+  </select>
+  <select class="blocks-select blocks-3">
+    <option>blocks-3</option>
+  </select>
+  <select class="blocks-select blocks-4">
+    <option>blocks-4</option>
+  </select>
+  <select class="blocks-select blocks-5">
+    <option>blocks-5</option>
+  </select>
+  <select class="blocks-select blocks-6">
+    <option>blocks-6</option>
+  </select>
+
+
+  <h2>
+    <code>blocks-notice</code>
+  </h2>
+
+  <div class="blocks-notice blocks-2" style="margin-bottom: 1em">blocks-2</div>
+  <div class="blocks-notice blocks-3" style="margin-bottom: 1em">blocks-3</div>
+  <div class="blocks-notice blocks-4" style="margin-bottom: 1em">blocks-4</div>
+  <div class="blocks-notice blocks-5" style="margin-bottom: 1em">blocks-5</div>
+  <div class="blocks-notice blocks-6" style="margin-bottom: 1em">blocks-6</div>
+
+
+  <h2>
+    <code>blocks-box</code>
+  </h2>
+
+  <div class="blocks-box blocks-3" style="display: flex; align-items: center; margin-bottom: 1em">
+    <input type="text" class="blocks-2" placeholder="get started">
+    <button type="button" class="blocks-2">save</div>
+  </div>
+  <div class="blocks-box blocks-4" style="display: flex; align-items: center; margin-bottom: 1em">
+    <input type="text" class="blocks-3" placeholder="get started">
+    <button type="button" class="blocks-3">save</div>
+  </div>
+  <div class="blocks-box blocks-5" style="display: flex; align-items: center; margin-bottom: 1em">
+    <input type="text" class="blocks-4" placeholder="get started">
+    <button type="button" class="blocks-4">save</div>
+  </div>
+  <div class="blocks-box blocks-6" style="display: flex; align-items: center; margin-bottom: 1em">
+    <input type="text" class="blocks-5" placeholder="get started">
+    <button type="button" class="blocks-5">save</div>
   </div>
 
-  <div>
-    <h2>Scale</h2>
+  <h2>
+    Aligned example
+  </h2>
 
-    <h4>Input</h4>
-    <input type="text" class="text-input form-element--2u" placeholder="2u" />
-    <input type="text" class="text-input form-element--3u" placeholder="3u" />
-    <input type="text" class="text-input form-element" placeholder="default" />
-    <input type="text" class="text-input form-element--4u" placeholder="4u" />
-    <input type="text" class="text-input form-element--5u" placeholder="5u" />
-    <input type="text" class="text-input form-element--6u" placeholder="6u" />
+  <input type="text" class="blocks-text-input blocks-2" placeholder="input blocks-2" />
+  <select class="blocks-select blocks-2">
+    <option>select blocks-2</option>
+  </select>
+  <button type="button" class="blocks-action blocks-2">button blocks-2</button>
 
-    <h4>Select</h4>
-    <select class="select form-element--2u">
-      <option>2u</option>
-    </select>
-    <select class="select form-element--3u">
-      <option>3u</option>
-    </select>
-    <select class="select form-element">
-      <option>default</option>
-    </select>
-    <select class="select form-element--4u">
-      <option>4u</option>
-    </select>
-    <select class="select form-element--5u">
-      <option>5u</option>
-    </select>
-    <select class="select form-element--6u">
-      <option>6u</option>
-    </select>
+  <br style="margin: 1em" />
 
-    <h4>Button</h4>
-    <button type="button" class="action form-element--2u">Button 2u</button>
-    <button type="button" class="action form-element--3u">Button 3u</button>
-    <button type="button" class="action form-element">Button Default</button>
-    <button type="button" class="action form-element--4u">Button 4u</button>
-    <button type="button" class="action form-element--5u">Button 5u</button>
+  <input type="text" class="blocks-text-input blocks-3" placeholder="input blocks-3" />
+  <select class="blocks-select blocks-3">
+    <option>select blocks-3</option>
+  </select>
+  <button type="button" class="blocks-action blocks-3">button blocks-3</button>
 
-    <h4>Checkbox</h4>
-    <input type="checkbox" class="checkbox-input" name="myCheckbox" id="myCheckbox2u" />
-    <label class="checkbox-label form-element--2u" for="myCheckbox2u">My Checkbox 2u</label>
+  <br style="margin: 1em" />
 
-    <h4>Radio</h4>
-    <input type="radio" class="radio-input" name="myRadio" id="myRadio2u" />
-    <label class="radio-label form-element--2u" for="myRadio2u">My Radio 2u</label>
-  </div>
+  <input type="text" class="blocks-text-input blocks-4" placeholder="input blocks-4" />
+  <select class="blocks-select blocks-4">
+    <option>select blocks-4</option>
+  </select>
+  <button type="button" class="blocks-action blocks-4">button blocks-4</button>
+
+  <br style="margin: 1em" />
+
+  <input type="text" class="blocks-text-input blocks-5" placeholder="input blocks-5" />
+  <select class="blocks-select blocks-5">
+    <option>select blocks-5</option>
+  </select>
+  <button type="button" class="blocks-action blocks-5">button blocks-5</button>
+
+  <br style="margin: 1em" />
+
+  <input type="text" class="blocks-text-input blocks-6" placeholder="input blocks-6" />
+  <select class="blocks-select blocks-6">
+    <option>select blocks-6</option>
+  </select>
+  <button type="button" class="blocks-action blocks-6">button blocks-6</button>
+
+  <br style="margin: 1em" />
 </body>
 
 </html>
