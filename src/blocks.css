@@ -1,0 +1,69 @@
+.blocks-2,
+.blocks-3,
+.blocks-4,
+.blocks-5,
+.blocks-6 {
+  vertical-align: middle;
+  padding: 0;
+  border-width: 1px;
+  border-style: solid;
+  font-family: inherit;
+}
+
+input[type="text"].blocks-2 {
+  line-height: calc(16px - 2px);
+  max-height: 16px;
+}
+input[type="text"].blocks-3 {
+  line-height: calc(24px - 2px);
+  max-height: 24px;
+}
+input[type="text"].blocks-4 {
+  line-height: calc(32px - 2px);
+  max-height: 32px;
+}
+input[type="text"].blocks-5 {
+  line-height: calc(40px - 2px);
+  max-height: 40px;
+}
+input[type="text"].blocks-6 {
+  line-height: calc(48px - 2px);
+  max-height: 48px;
+}
+
+select.blocks-2 {
+  height: 16px;
+}
+select.blocks-3 {
+  height: 24px;
+}
+select.blocks-4 {
+  height: 32px;
+}
+select.blocks-5 {
+  height: 40px;
+}
+select.blocks-6 {
+  height: 48px;
+}
+
+button.blocks-2 {
+  line-height: 14px;
+  height: 16px;
+}
+button.blocks-3 {
+  line-height: 22px;
+  height: 24px;
+}
+button.blocks-4 {
+  line-height: 30px;
+  height: 32px;
+}
+button.blocks-5 {
+  line-height: 38px;
+  height: 40px;
+}
+button.blocks-6 {
+  line-height: 46px;
+  height: 48px;
+}

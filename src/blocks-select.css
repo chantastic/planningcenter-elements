@@ -1,0 +1,36 @@
+.blocks-select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.blocks-select.blocks-2 {
+  font-size: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 2px;
+}
+.blocks-select.blocks-3 {
+  font-size: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 3px;
+}
+.blocks-select.blocks-4 {
+  font-size: 14px;
+  padding-left: 14px;
+  padding-right: 14px;
+  border-radius: 4px;
+}
+.blocks-select.blocks-5 {
+  font-size: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 5px;
+  position: relative;
+}
+.blocks-select.blocks-6 {
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 6px;
+}
