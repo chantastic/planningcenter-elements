@@ -12,23 +12,54 @@
 
 input[type="text"].blocks-2 {
   line-height: calc(16px - 2px);
-  max-height: 16px;
 }
 input[type="text"].blocks-3 {
   line-height: calc(24px - 2px);
-  max-height: 24px;
 }
 input[type="text"].blocks-4 {
   line-height: calc(32px - 2px);
-  max-height: 32px;
 }
 input[type="text"].blocks-5 {
   line-height: calc(40px - 2px);
-  max-height: 40px;
 }
 input[type="text"].blocks-6 {
   line-height: calc(48px - 2px);
-  max-height: 48px;
+}
+/* IE 11 fix for input height */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  input[type="text"].blocks-2 {
+    height: 16px;
+  }
+  input[type="text"].blocks-3 {
+    height: 24px;
+  }
+  input[type="text"].blocks-4 {
+    height: 32px;
+  }
+  input[type="text"].blocks-5 {
+    height: 40px;
+  }
+  input[type="text"].blocks-6 {
+    height: 48px;
+  }
+}
+/* Edge fix for input height */
+@supports (-ms-ime-align: auto) {
+  input[type="text"].blocks-2 {
+    height: 16px;
+  }
+  input[type="text"].blocks-3 {
+    height: 24px;
+  }
+  input[type="text"].blocks-4 {
+    height: 32px;
+  }
+  input[type="text"].blocks-5 {
+    height: 40px;
+  }
+  input[type="text"].blocks-6 {
+    height: 48px;
+  }
 }
 
 select.blocks-2 {
