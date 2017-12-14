@@ -17,7 +17,8 @@
   ],
   "private": false,
   "scripts": {
-    "start": "python -m SimpleHTTPServer 3000"
+    "start": "python -m SimpleHTTPServer 3000",
+    "build": "node scripts/build.js"
   },
   "repository": {
     "type": "git",
@@ -27,5 +28,9 @@
   "bugs": {
     "url": "https://github.com/planningcenter/elements/issues"
   },
-  "homepage": "https://github.com/planningcenter/elements#readme"
+  "homepage": "https://github.com/planningcenter/elements#readme",
+  "dependencies": {
+    "postcss": "^6.0.14",
+    "postcss-import": "^11.0.0"
+  }
 }

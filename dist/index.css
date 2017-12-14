@@ -1,1 +1,292 @@
-/* left blank until build is setup */
+.blocks-2,
+.blocks-3,
+.blocks-4,
+.blocks-5,
+.blocks-6 {
+  vertical-align: middle;
+  padding: 0;
+  border-width: 1px;
+  border-style: solid;
+  font-family: inherit;
+}
+
+input[type="text"].blocks-2 {
+  line-height: calc(16px - 2px);
+}
+
+input[type="text"].blocks-3 {
+  line-height: calc(24px - 2px);
+}
+
+input[type="text"].blocks-4 {
+  line-height: calc(32px - 2px);
+}
+
+input[type="text"].blocks-5 {
+  line-height: calc(40px - 2px);
+}
+
+input[type="text"].blocks-6 {
+  line-height: calc(48px - 2px);
+}
+
+/* IE 11 fix for input height */
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  input[type="text"].blocks-2 {
+    height: 16px;
+  }
+  input[type="text"].blocks-3 {
+    height: 24px;
+  }
+  input[type="text"].blocks-4 {
+    height: 32px;
+  }
+  input[type="text"].blocks-5 {
+    height: 40px;
+  }
+  input[type="text"].blocks-6 {
+    height: 48px;
+  }
+}
+
+/* Edge fix for input height */
+
+@supports (-ms-ime-align: auto) {
+  input[type="text"].blocks-2 {
+    height: 16px;
+  }
+  input[type="text"].blocks-3 {
+    height: 24px;
+  }
+  input[type="text"].blocks-4 {
+    height: 32px;
+  }
+  input[type="text"].blocks-5 {
+    height: 40px;
+  }
+  input[type="text"].blocks-6 {
+    height: 48px;
+  }
+}
+
+select.blocks-2 {
+  height: 16px;
+}
+
+select.blocks-3 {
+  height: 24px;
+}
+
+select.blocks-4 {
+  height: 32px;
+}
+
+select.blocks-5 {
+  height: 40px;
+}
+
+select.blocks-6 {
+  height: 48px;
+}
+
+button.blocks-2 {
+  line-height: 14px;
+  height: 16px;
+}
+
+button.blocks-3 {
+  line-height: 22px;
+  height: 24px;
+}
+
+button.blocks-4 {
+  line-height: 30px;
+  height: 32px;
+}
+
+button.blocks-5 {
+  line-height: 38px;
+  height: 40px;
+}
+
+button.blocks-6 {
+  line-height: 46px;
+  height: 48px;
+}
+
+.blocks-action.blocks-2 {
+  font-size: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 2px;
+}
+
+.blocks-action.blocks-3 {
+  font-size: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 3px;
+}
+
+.blocks-action.blocks-4 {
+  font-size: 14px;
+  padding-left: 14px;
+  padding-right: 14px;
+  border-radius: 4px;
+}
+
+.blocks-action.blocks-5 {
+  font-size: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 5px;
+}
+
+.blocks-action.blocks-6 {
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 6px;
+}
+
+.blocks-box.blocks-2 {
+  height: 16px;
+  line-height: calc(16px - 2px);
+  font-size: 10px;
+}
+
+.blocks-box.blocks-3 {
+  height: 24px;
+  line-height: calc(24px - 2px);
+  font-size: 12px;
+}
+
+.blocks-box.blocks-4 {
+  height: 32px;
+  line-height: calc(32px - 2px);
+  font-size: 14px;
+}
+
+.blocks-box.blocks-5 {
+  height: 40px;
+  line-height: calc(40px - 2px);
+  font-size: 16px;
+}
+
+.blocks-box.blocks-6 {
+  height: 48px;
+  line-height: calc(48px - 2px);
+  font-size: 20px;
+}
+
+.blocks-notice {
+  text-align: center;
+}
+
+.blocks-notice.blocks-2 {
+  height: 16px;
+  line-height: calc(16px - 2px);
+  font-size: 10px;
+}
+
+.blocks-notice.blocks-3 {
+  height: 24px;
+  line-height: calc(24px - 2px);
+  font-size: 12px;
+}
+
+.blocks-notice.blocks-4 {
+  height: 32px;
+  line-height: calc(32px - 2px);
+  font-size: 14px;
+}
+
+.blocks-notice.blocks-5 {
+  height: 40px;
+  line-height: calc(40px - 2px);
+  font-size: 16px;
+}
+
+.blocks-notice.blocks-6 {
+  height: 48px;
+  line-height: calc(48px - 2px);
+  font-size: 20px;
+}
+
+.blocks-select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.blocks-select.blocks-2 {
+  font-size: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 2px;
+}
+
+.blocks-select.blocks-3 {
+  font-size: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 3px;
+}
+
+.blocks-select.blocks-4 {
+  font-size: 14px;
+  padding-left: 14px;
+  padding-right: 14px;
+  border-radius: 4px;
+}
+
+.blocks-select.blocks-5 {
+  font-size: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.blocks-select.blocks-6 {
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 6px;
+}
+
+.blocks-text-input.blocks-2 {
+  font-size: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 2px;
+}
+
+.blocks-text-input.blocks-3 {
+  font-size: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 3px;
+}
+
+.blocks-text-input.blocks-4 {
+  font-size: 14px;
+  padding-left: 14px;
+  padding-right: 14px;
+  border-radius: 4px;
+}
+
+.blocks-text-input.blocks-5 {
+  font-size: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 5px;
+}
+
+.blocks-text-input.blocks-6 {
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 6px;
+}
