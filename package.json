@@ -14,6 +14,7 @@
   "scripts": {
     "start": "python -m SimpleHTTPServer 3000"
   },
+  "style": "./dist/index.css",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/planningcenter/elements.git"
