@@ -1,10 +1,35 @@
 # Elements
 Home of [@planningcenter/elements](https://github.com/planningcenter/elements).
 
+## Usage
+Order matters.
+Import `blocks.css` before the rest in your app.
+
+### link
+
+#### Build
+You can link the built library in your app or codebin:
+
+<link rel="stylesheet" href="https://unpkg.com/@planningcenter/elements@0.0.3/dist/index.css" />
+
+### Packages
+Individual packages live in the `/css` directory:
+
+<link rel="stylesheet" href="https://unpkg.com/@planningcenter/elements@0.0.3/css/blocks.css" />
+<link rel="stylesheet" href="https://unpkg.com/@planningcenter/elements@0.0.3/css/blocks-action.css" />
+<link rel="stylesheet" href="https://unpkg.com/@planningcenter/elements@0.0.3/css/blocks-box.css" />
+<link rel="stylesheet" href="https://unpkg.com/@planningcenter/elements@0.0.3/css/blocks-notice.css" />
+<link rel="stylesheet" href="https://unpkg.com/@planningcenter/elements@0.0.3/css/blocks-select.css" />
+<link rel="stylesheet" href="https://unpkg.com/@planningcenter/elements@0.0.3/css/blocks-text-input.css" />
+
+### Loader
+You know what to do...
+
 ## Develop
 
 #### Scripts
 `npm start`: serve project at [localhost:3000](localhost:3000).
+`npm build`: builds `dist/index.css` from `build.css`
 
 #### Environment
 `env.css` provides some environment expections:
