@@ -1,36 +1,49 @@
 .blocks-select {
+  cursor: pointer;
+  vertical-align: middle;
+  background-color: transparent;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeD0iMTJweCIgeT0iMHB4IiB3aWR0aD0iMjRweCIgaGVpZ2h0PSIzcHgiIHZpZXdCb3g9IjAgMCA2IDMiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDYgMyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBvbHlnb24gcG9pbnRzPSI1Ljk5MiwwIDIuOTkyLDMgLTAuMDA4LDAgIi8+PC9zdmc+);
+  background-repeat: no-repeat;
+  background-size: 32px auto;
   -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+     -moz-appearance: none;
+          appearance: none;
 }
+  .blocks-select::-ms-expand { display: none }
+
 .blocks-select.blocks-2 {
   font-size: 10px;
   padding-left: 10px;
-  padding-right: 10px;
+  padding-right: 18px;
   border-radius: 2px;
+  background-position: calc(100% + 5px) calc(50% + 0.5px);
 }
 .blocks-select.blocks-3 {
   font-size: 12px;
   padding-left: 12px;
-  padding-right: 12px;
+  padding-right: 20px;
   border-radius: 3px;
+  background-position: calc(100% + 4px) calc(50% + 1px);
 }
 .blocks-select.blocks-4 {
   font-size: 14px;
   padding-left: 14px;
-  padding-right: 14px;
+  padding-right: 22px;
   border-radius: 4px;
+  background-position: calc(100% + 2px) calc(50% + 1px);
 }
 .blocks-select.blocks-5 {
   font-size: 16px;
   padding-left: 16px;
-  padding-right: 16px;
+  padding-right: 24px;
   border-radius: 5px;
   position: relative;
+  background-position: calc(100% + 1px) calc(50% + 1px);
 }
 .blocks-select.blocks-6 {
   font-size: 20px;
   padding-left: 20px;
-  padding-right: 20px;
+  padding-right: 28px;
   border-radius: 6px;
+  background-position: calc(100% + -1px) calc(50% + 1px);
 }
