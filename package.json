@@ -19,7 +19,15 @@
     }
   ],
   "private": false,
+  "devDependencies": {
+    "autoprefixer": "^7.2.3",
+    "browser-sync": "^2.18.13",
+    "postcss-cli": "^4.1.1"
+  },
   "scripts": {
-    "start": "python -m SimpleHTTPServer 3000"
+    "start": "python -m SimpleHTTPServer 3000",
+    "watch": "npm run browsersync & npm run postcss",
+    "browsersync": "browser-sync start --no-open --no-notify --server --files 'dist'",
+    "postcss": "postcss ./src/*.css --dir ./dist --use autoprefixer --watch"
   }
 }
