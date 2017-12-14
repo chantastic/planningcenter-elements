@@ -5,21 +5,22 @@
   "main": "index.js",
   "author": "Michael Chan",
   "contributors": [
-    {
-      "name": "Michael Chan"
-    },
-    {
-      "name": "Allie Rice"
-    },
-    {
-      "name": "Dustin Secrest"
-    },
-    {
-      "name": "Jonathan Suh"
-    }
+    "Michael Chan",
+    "Allie Rice",
+    "Dustin Secrest",
+    "Jonathan Suh"
   ],
   "private": false,
   "scripts": {
     "start": "python -m SimpleHTTPServer 3000"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/planningcenter/elements.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/planningcenter/elements/issues"
+  },
+  "homepage": "https://github.com/planningcenter/elements#readme"
 }
