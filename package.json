@@ -1,8 +1,9 @@
 {
   "name": "@planningcenter/elements",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "8-point elements for planning center apps",
-  "main": "index.js",
+  "main": "./dist/index.css",
+  "style": "./dist/index.css",
   "author": "Michael Chan",
   "contributors": [
     "Michael Chan",
@@ -10,11 +11,14 @@
     "Dustin Secrest",
     "Jonathan Suh"
   ],
+  "files": [
+    "css",
+    "dist"
+  ],
   "private": false,
   "scripts": {
     "start": "python -m SimpleHTTPServer 3000"
   },
-  "style": "./dist/index.css",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/planningcenter/elements.git"
