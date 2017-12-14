@@ -10,17 +10,21 @@ Import `blocks.css` before the rest in your app.
 #### Build
 You can link the built library in your app or codebin:
 
+```html
 <link rel="stylesheet" href="https://unpkg.com/@planningcenter/elements@0.0.3/dist/index.css" />
+```
 
 ### Packages
 Individual packages live in the `/css` directory:
 
+```html
 <link rel="stylesheet" href="https://unpkg.com/@planningcenter/elements@0.0.3/css/blocks.css" />
 <link rel="stylesheet" href="https://unpkg.com/@planningcenter/elements@0.0.3/css/blocks-action.css" />
 <link rel="stylesheet" href="https://unpkg.com/@planningcenter/elements@0.0.3/css/blocks-box.css" />
 <link rel="stylesheet" href="https://unpkg.com/@planningcenter/elements@0.0.3/css/blocks-notice.css" />
 <link rel="stylesheet" href="https://unpkg.com/@planningcenter/elements@0.0.3/css/blocks-select.css" />
 <link rel="stylesheet" href="https://unpkg.com/@planningcenter/elements@0.0.3/css/blocks-text-input.css" />
+```
 
 ### Loader
 You know what to do...
