@@ -7,7 +7,7 @@
   padding: 0;
   border-width: 1px;
   border-style: solid;
-  font-family: inherit;
+  font-family: "Lato", sans-serif;
 }
 
 input[type="text"].blocks-2 {
