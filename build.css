@@ -4,3 +4,5 @@
 @import "css/blocks-notice.css";
 @import "css/blocks-select.css";
 @import "css/blocks-text-input.css";
+@import "css/checkbox-input";
+@import "css/checkbox-label";
